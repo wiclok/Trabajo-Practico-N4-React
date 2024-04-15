@@ -1,12 +1,17 @@
-import { PokemonsList } from "./components/PokemonsList.jsx"
+import { PokemonsList } from "./components/PokemonsList.jsx";
+import "./assets/style/app.css";
 
 function App() {
-
   return (
     <>
-      <PokemonsList />
+      <div className="app">
+        <div className="title">
+          <h1>PokemonsList:</h1>
+        </div>
+        <PokemonsList />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
